@@ -1,0 +1,135 @@
+
+<web-app>
+<welcome-file-list>
+<welcome-file>login.jsp</welcome-file>
+</welcome-file-list>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SignupAction</servlet-name>
+  	<display-name>SignupAction</display-name>
+  	<description></description>
+  	<servlet-class>project.action.SignupAction</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginAction</servlet-name>
+  	<display-name>LoginAction</display-name>
+  	<description></description>
+  	<servlet-class>project.action.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForgotAction</servlet-name>
+  	<display-name>ForgotAction</display-name>
+  	<description></description>
+  	<servlet-class>project.action.ForgotAction</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AddNewProduct</servlet-name>
+  	<display-name>AddNewProduct</display-name>
+  	<description></description>
+  	<servlet-class>project.action.AddNewProduct</servlet-class>
+  </servlet>
+
+  
+  <servlet-mapping>
+  	<servlet-name>SignupAction</servlet-name>
+  	<url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginAction</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ForgotAction</servlet-name>
+  	<url-pattern>/forgot</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>AddNewProduct</servlet-name>
+  	<url-pattern>/addPro</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <servlet>
+  	<servlet-name>EditProductAction</servlet-name>
+  	<display-name>EditProductAction</display-name>
+  	<description></description>
+  	<servlet-class>project.action.EditProductAction</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddToCartAction</servlet-name>
+  	<display-name>AddToCartAction</display-name>
+  	<description></description>
+  	<servlet-class>project.action.AddToCartAction</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>APFOAction</servlet-name>
+  	<display-name>APFOAction</display-name>
+  	<description></description>
+  	<servlet-class>project.action.APFOAction</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangePasswordAction</servlet-name>
+  	<display-name>ChangePasswordAction</display-name>
+  	<description></description>
+  	<servlet-class>project.action.ChangePasswordAction</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangeAddressAction</servlet-name>
+  	<display-name>ChangeAddressAction</display-name>
+  	<description></description>
+  	<servlet-class>project.action.ChangeAddressAction</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangeSecurityQuestion</servlet-name>
+  	<display-name>ChangeSecurityQuestion</display-name>
+  	<description></description>
+  	<servlet-class>project.action.ChangeSecurityQuestion</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangeMobileNumber</servlet-name>
+  	<display-name>ChangeMobileNumber</display-name>
+  	<description></description>
+  	<servlet-class>project.action.ChangeMobileNumber</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MessageUsAction</servlet-name>
+  	<display-name>MessageUsAction</display-name>
+  	<description></description>
+  	<servlet-class>project.action.MessageUsAction</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>EditProductAction</servlet-name>
+  	<url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddToCartAction</servlet-name>
+  	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>APFOAction</servlet-name>
+  	<url-pattern>/apfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangePasswordAction</servlet-name>
+  	<url-pattern>/changePass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangeAddressAction</servlet-name>
+  	<url-pattern>/changeAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangeSecurityQuestion</servlet-name>
+  	<url-pattern>/changeSecurity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangeMobileNumber</servlet-name>
+  	<url-pattern>/changeMobileNumber</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MessageUsAction</servlet-name>
+  	<url-pattern>/message</url-pattern>
+  </servlet-mapping>
+  
+  </web-app>
